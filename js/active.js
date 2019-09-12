@@ -41,10 +41,10 @@
             margin: 0,
             loop: true,
             nav: true,
-            navText: ['Prev Game', 'Next Game'],
+            navText: ['Prev Game', 'More Info'],
             dots: false,
             autoplay: true,
-            autoplayTimeout: 7000,
+            autoplayTimeout: 12000,
             smartSpeed: 1000
         });
 
@@ -194,6 +194,14 @@
             duration: 5000
         });
         $('#bar4').barfiller({
+            barColor: '#20d8da',
+            duration: 5000
+        });
+        $('#bar5').barfiller({
+            barColor: '#20d8da',
+            duration: 5000
+        });
+        $('#bar6').barfiller({
             barColor: '#20d8da',
             duration: 5000
         });
